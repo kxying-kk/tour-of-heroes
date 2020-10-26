@@ -1,19 +1,23 @@
-1. The double curly braces{{}} are Angular's interpolation binding syntax
-2. @Component is a decorator function that specifies the Angular metadata for the component
-3. Pipes are a good way to format strings, currency amounts, dates and other display data. 
+# 1. The double curly braces{{}} are Angular's interpolation binding syntax
+
+# 2. @Component is a decorator function that specifies the Angular metadata for the component
+
+# 3. Pipes are a good way to format strings, currency amounts, dates and other display data. 
    Angular ships with several built-in pipes and you can create your own.
    The word uppercase in the interpolation binding, right after the pipe operator ( | ), activates the built-in UppercasePipe.
+   ```
    <h2>{{hero.name | uppercase}} Details</h2>
-3. two-way data binding with the ngModel directive
-4. The messageService property must be public because you're going to bind to it in the template.
+   ```
+# 4. two-way data binding with the ngModel directive
+# 5. The messageService property must be public because you're going to bind to it in the template.
    Angular only binds to public component properties.
    
-5. In Angular, the best practice is to load and configure the router in a separate, top-level module that is dedicated to routing and 
+# 5. In Angular, the best practice is to load and configure the router in a separate, top-level module that is dedicated to routing and 
    imported by the root AppModule.
    By convention, the module class name is AppRoutingModule and it belongs in the app-routing.module.ts in the src/app folder.
    ng generate module app-routing --flat --module=app
 
-6.  Angular router to navigate among different components..
+# 6.  Angular router to navigate among different components..
 	<nav>
 		<a routerLink="/heroes">Heroes</a>
 	</nav>
