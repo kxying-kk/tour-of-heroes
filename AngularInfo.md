@@ -9,6 +9,7 @@
    <h2>{{hero.name | uppercase}} Details</h2>
    ```
 # 4. two-way data binding with the ngModel directive
+
 # 5. The messageService property must be public because you're going to bind to it in the template.
    Angular only binds to public component properties.
    
@@ -23,12 +24,12 @@
 	</nav>
     The routerLink is the selector for the RouterLink directive that turns user clicks into router navigations. It's another of the public directives in the RouterModule.
 
-7. The catchError() operator intercepts an Observable that failed. It passes the error an error handler that can do what it wants with the error.
+# 7. The catchError() operator intercepts an Observable that failed. It passes the error an error handler that can do what it wants with the error.
 
-8. The *ngFor repeats hero objects. Notice that the *ngFor iterates over a list called heroes$, not heroes. The $ is a convention that indicates heroes$ is an Observable, not an array.
+# 8. The *ngFor repeats hero objects. Notice that the *ngFor iterates over a list called heroes$, not heroes. The $ is a convention that indicates heroes$ is an Observable, not an array.
    Since *ngFor can't do anything with an Observable, use the pipe character (|) followed by async. This identifies Angular's AsyncPipe and subscribes to an Observable automatically so you won't have to do so in the component class.
 
-9. RouterModule provides the Router service, as well as router directives, such as RouterOutlet and routerLink.  VVVVVVVVVVVVVVV
+# 9. RouterModule provides the Router service, as well as router directives, such as RouterOutlet and routerLink.  VVVVVVVVVVVVVVV
 If the RouterModule didn’t have forRoot() then each feature module would instantiate a new Router instance, which would break the application as there can only be one Router. By using the forRoot() method, the root application module imports RouterModule.forRoot(...) and gets a Router, and all feature modules import RouterModule.forChild(...) which does not instantiate another Router.
 
 ng new customer-app --routing
@@ -37,9 +38,9 @@ ng generate module customers --route customers --module app.module
 
 https://angular.io/guide/lazy-loading-ngmodules#lazy-loading-feature-modules
 
-10. https://docs.microsoft.com/en-us/azure/devops/artifacts/npm/publish?view=azure-devops
+# 10. https://docs.microsoft.com/en-us/azure/devops/artifacts/npm/publish?view=azure-devops
 
-11. one way binding
+# 11. one way binding
 a. {{value}}
 {{hero.name}}
 b. [property]="value"
@@ -49,7 +50,7 @@ c. (click)="selectHero(hero)"
 two way binding:
 <input [(ngModule)]="hero.name" />
 
-12. directives: structural and attribute
+# 12. directives: structural and attribute
 structural
 <li *ngFor="let hero of heroes"></li>
 <app-hero-detail *ngIf="selectedHero"></app-hero-detail>
@@ -70,13 +71,13 @@ Build a simple attribute directive: ng generate directive highlight
   </span>
 </select>
 
-13. error handling
+# 13. error handling
 https://www.positronx.io/angular-error-handling-tutorial-with-examples/
 
-14. Publish an npm package from the command line 
+# 14. Publish an npm package from the command line 
 https://docs.microsoft.com/en-us/azure/devops/artifacts/npm/publish?view=azure-devops
 
-15. 
+# 15. 
 RxJS has observers (consuming interface) and observables (push interface). 
 A Subject is both an observer and observable. 
 A BehaviorSubject a Subject that can emit the current value (Subjects have no concept of current value). 
