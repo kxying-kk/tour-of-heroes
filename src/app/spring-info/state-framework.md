@@ -18,3 +18,12 @@ https://medium.com/better-programming/functional-programming-with-java-an-introd
 - [The Double Colon Operator in Java 8](https://www.baeldung.com/java-8-double-colon-operator)
 - [Varargs in Java](https://www.baeldung.com/java-varargs)
 - [The Double Colon Operator in Java 8](https://www.baeldung.com/java-8-double-colon-operator)
+
+# 5. Using JaVers for Data Model Auditing in Spring Data
+https://www.baeldung.com/spring-data-javers-audit
+
+# 6. Scheduling in Spring with Quartz
+https://www.baeldung.com/spring-quartz-schedule
+
+# 7. 
+https://www.nginx.com/resources/glossary/reverse-proxy-server/
