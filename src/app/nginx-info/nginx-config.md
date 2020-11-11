@@ -3,6 +3,8 @@ https://www.digitalocean.com/community/tutorials/understanding-nginx-server-and-
 
 https://www.nginx.com/
 
+https://www.nginx.com/resources/wiki/start/topics/examples/full/
+
 # 2. how to configuration server location in nginx
 Location Block Syntax
 Before we cover how Nginx decides which location block to use to handle requests, let’s go over some of the syntax you might see in location block definitions. Location blocks live within server blocks (or other location blocks) and are used to decide how to process the request URI (the part of the request that comes after the domain name or IP address/port).
