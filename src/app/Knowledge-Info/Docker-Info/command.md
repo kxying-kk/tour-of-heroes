@@ -18,7 +18,7 @@ docker image
 docker exec -it my-mongo-container bash
 ``` 
 # 5. Login to MongoDB with created User & Database
-mongo -u admin -p admin --authenticationDatabase mymongodb
+mongo -u admin -p secret --authenticationDatabase mymongodb
 mongo -u admin --authenticationDatabase mymongodb
 
 mongodb://admin:admin@127.0.0.1:27017/mymongodb
