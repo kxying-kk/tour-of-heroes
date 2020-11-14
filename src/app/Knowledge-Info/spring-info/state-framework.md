@@ -1,5 +1,14 @@
 # 1. link of spring statement machine
+https://github.com/antkorwin/statemachine
+http://antkorwin.com/statemachine/statemachine.html
+http://antkorwin.com/
+
+
+https://docs.spring.io/spring-statemachine/docs/1.0.2.RC1/reference/html/developing-your-first-spring-statemachine-application.html
 https://docs.spring.io/spring-statemachine/docs/current/reference/#introduction
+https://docs.spring.io/spring-statemachine/docs/2.1.3.RELEASE/reference/
+https://medium.com/@nagillavenkatesh1234/introducing-spring-state-machine-77d446f85e13
+https://medium.com/@chundi.vamsikrishna/spring-state-machine-for-beginners-e6ac8363d890
 
 # 2. Spring Web on Reactive Stack
 https://docs.spring.io/spring-framework/docs/current/reference/html/web-reactive.html#webflux
