@@ -2,7 +2,7 @@
 https://github.com/antkorwin/statemachine
 http://antkorwin.com/statemachine/statemachine.html
 http://antkorwin.com/
-
+https://blog.mimacom.com/introducing-spring-state-machine/
 
 https://docs.spring.io/spring-statemachine/docs/1.0.2.RC1/reference/html/developing-your-first-spring-statemachine-application.html
 https://docs.spring.io/spring-statemachine/docs/current/reference/#introduction
@@ -36,3 +36,13 @@ https://www.baeldung.com/spring-quartz-schedule
 
 # 7. 
 https://www.nginx.com/resources/glossary/reverse-proxy-server/
+
+# 8. Spring-HATEOAS
+https://www.baeldung.com/spring-hateoas-tutorial
+https://docs.spring.io/spring-hateoas/docs/1.0.x/api/org/springframework/hateoas/server/mvc/WebMvcLinkBuilder.html
+
+# 9. Spring Javers
+JaVers is designed as a framework for auditing changes in your object-oriented data.
+https://javers.org/documentation/spring-boot-integration/
+https://www.baeldung.com/spring-data-javers-audit
+https://github.com/javers/organization-structure
