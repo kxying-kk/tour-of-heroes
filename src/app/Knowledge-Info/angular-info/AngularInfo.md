@@ -89,3 +89,20 @@ if (typeof caseReference === 'undefined'){
   
 }
 ```
+
+# 17 async and await feature in angular
+https://medium.com/@balramchavan/using-async-await-feature-in-angular-587dd56fdc77
+
+# 18. Best Practices for JWT Authentication in Angular Apps
+https://www.syncfusion.com/blogs/post/best-practices-for-jwt-authentication-in-angular-apps.aspx
+
+# 19. promise
+https://rxjs.dev/api/index/class/Observable#topromise-
+
+# 20. ngrx store
+https://dzone.com/articles/angular-app-state-management-with-ngrx
+https://ngrx.io/guide/store
+
+1. After JWT Token is received after the first security API call, where you save the JWT Token? local store?
+
+2. How does Angular deal with JWT Token Expire? 
